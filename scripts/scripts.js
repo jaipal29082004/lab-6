@@ -103,7 +103,7 @@ function changeDuration() {
         duration = parseFloat(newDuration); 
 
         
-        durationText.innerHTML = duration + " hours";
+        durationText.innerHTML = duration;
 
         // Recalculate the total cost
         recalculate();
